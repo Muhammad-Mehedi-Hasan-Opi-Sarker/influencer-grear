@@ -1,16 +1,47 @@
+/* ----------------------
+font style 
+------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* head ==============
+---------------------*/
 .head{
+    display: flex;
     margin-top: 0%;
-    margin: 40px;
+    margin: 80px;
     
+    
+}
+/*--------------------=-===========------
+ animation header
+ -------------------------------------- */
+ .animation{
+     width: 70px;
+     height: 70px;
+     text-align: center;
+     background-color: tomato;
+     transition: 3s;
+     margin: 0 10%;
+     
+ }
+ .animation:hover{
+     width: 100px;
+     height: 100px;
+     transform: rotate(180deg);
+ }
+ /*-------------------------------------------------------
+ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  Frist section style
+  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ -------------------------------------------------------------- */
+
+#flex-container{
+    display: flex;
+    justify-content: center;
 }
 .frist-camera h1{
     font-size: 2em;
-}
-#flex-container{
-    display: flex;
 }
 .frist-camera{
     width: 500px;
@@ -19,6 +50,9 @@ body{
 .frist-camera img{
     width: 500px;
 }
+/*---------------------------
+ button style
+ ---------------------------------- */
 a{
     color: white;
     background-image: linear-gradient(orange, red);
@@ -28,3 +62,60 @@ a{
     border-radius: 15px;
 
 }
+/*----------------------------------------------------------------------------------------------
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ second section work here 
+ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ ----------------------------------------------------------------------------------------------------*/
+h2{
+     text-align: center;
+ }
+
+ /*---------------------------------
+  all-collection
+  ---------------------------------- */
+  .all-collection .collection img{
+      width: 260px;
+      height: 200px;
+  }
+  /* -------------------------------------------------------------
+  star color 
+  ----------------------------------------------------------------*/
+  .all-collection{
+    
+      display: grid;
+      grid-template-columns: 300px 300px 300px;
+      justify-content: center;
+      grid-column-gap: 30px;
+      grid-row-gap: 20px;
+  }
+  .collection{
+      width: 300px;
+      height: 500px;
+      border: 1px solid gainsboro;
+      padding-top: 3%;
+      padding-left: 3%;
+      
+     
+      
+      
+  }
+  .fa-star.filled{
+      color: orange;
+      
+      
+  }
+  .fa-star.empty{
+      color: gainsboro;
+      
+      
+  }
+  .info{
+      display: flex;
+      align-items: center;
+    }
+    .button-style{
+        color: gainsboro;
+        justify-content:center;
+        align-items: flex-end;
+    }
