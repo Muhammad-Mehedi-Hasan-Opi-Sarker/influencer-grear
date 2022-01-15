@@ -53,7 +53,7 @@ body{
 /*---------------------------
  button style
  ---------------------------------- */
-a{
+.frist-button{
     color: white;
     background-image: linear-gradient(orange, red);
     text-decoration: none;
@@ -114,8 +114,51 @@ h2{
       display: flex;
       align-items: center;
     }
-    .button-style{
-        color: gainsboro;
-        justify-content:center;
-        align-items: flex-end;
+    .second-button{
+        color: white;
+    
+    text-decoration: none;
+    padding: 7px;
+    text-align: end;
+    border-radius: 15px;
+    }
+    a{
+    
+    }
+    /*--------------------------------------------------
+    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+     third section style 
+     ----------------------------------------------------
+     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+     .about{
+         font-size: 2em;
+         color: orange;
+         text-align: center;
+         
+     }
+     .story{
+         width: 500px;
+         height: 400px;
+         margin-left: 90px;
+         border: 1px solid gainsboro;
+         overflow: scroll;
+         overflow-x: hidden;
+     }
+     /* -----------------------------------------------------------------------------------
+     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      fotter style here 
+      --------------------------------------------------------------------------------------
+      $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+      .under{
+          background-color: black;
+      }
+      .middle{
+          text-align: center;
+          color: white;
+      }
+      .middle-icon .opi-icon{
+        color: white;
+    }
+    .middle-icon{
+        text-align: center;
     }
