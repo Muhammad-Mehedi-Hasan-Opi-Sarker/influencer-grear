@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    margin-top: 0%;
+    margin: 40px;
+    
+}
+.frist-camera h1{
+    font-size: 2em;
+}
+#flex-container{
+    display: flex;
+}
+.frist-camera{
+    width: 500px;
+    margin: 40px;
+}
+.frist-camera img{
+    width: 500px;
+}
+a{
+    color: white;
+    background-image: linear-gradient(orange, red);
+    text-decoration: none;
+    padding: 7px;
+    text-align: center;
+    border-radius: 15px;
+
+}
